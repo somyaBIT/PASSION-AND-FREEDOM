@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+@import url(./style.css);
+
+body {
+  /* background: var(--orange); */
+  color: var(--white);
+}
+/* NAVBAR */
+nav {
+  background-color: var(--orange);
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #000;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--white);
+}
+
+/* SOCIAL ICONS */
+.social-icons i {
+  color: var(--white);
+}
+
+.social-icons i:hover {
+  color: #000;
+}
+
+footer {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.women {
+  background-color: var(--white);
+  color: #000;
+}
+
+.wheel .header-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: var(--white);
+  background-color: transparent;
+  border: 2px solid var(--white);
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 10px 0 20px 0;
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  transition: 0.5s ease-in-out;
+  transition-property: background-color;
+}
+
+.wheel .header-btn:hover {
+  color: #000;
+  background-color: var(--white);
+}
+
+.women .header-btn {
+  color: #000;
+}
+
+img {
+  width: 100%;
+}
+
+.logo{
+  color: #fff;
+}
+
+
+.badge {
+  background-color: var(--white);
+  color: #000;
+}
